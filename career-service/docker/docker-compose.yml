@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  ml_app:
+    image: ml:latest
+    restart: unless-stopped
+    container_name: ml_container
+    environment:
+      FLASK_ENV: "development"
+    ports:
+        - "6000:6000"
+
+volumes:
+    ml_app:
