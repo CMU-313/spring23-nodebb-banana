@@ -83,8 +83,6 @@
             <span component="post/bookmark-count" class="bookmarkCount badge" data-bookmarks="{posts.bookmarks}">{posts.bookmarks}</span>&nbsp;
         </a>
     </li>
-    {{{ end }}}
-
     <li>
         <a component="post/resolve" role="menuitem" tabindex="-1" href="#" data-resolved="{posts.resolved}">
             <span class="menu-icon">
@@ -94,6 +92,7 @@
             <span class="resolved">Mark As Resolved</span>
         </a>
     </li>
+    {{{ end }}}
 
     <li>
         <a role="menuitem" tabindex="-1" href="#" data-clipboard-text="{posts.absolute_url}">
