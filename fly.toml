@@ -1,6 +1,6 @@
-# fly.toml file generated for nodebb-banana-v9 on 2023-03-18T09:57:04-04:00
+# fly.toml file generated for nodebb-banana-v10 on 2023-03-18T10:57:22-04:00
 
-app = "nodebb-banana-v9"
+app = "nodebb-banana-v10"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "iad"
