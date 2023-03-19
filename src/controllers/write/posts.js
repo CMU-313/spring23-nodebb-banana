@@ -79,7 +79,19 @@ Posts.bookmark = async (req, res) => {
 
 Posts.unbookmark = async (req, res) => {
     const data = await mock(req);
-    await api.posts.unbookmark(req, data);
+    await api.posts.unresolve(req, data);
+    helpers.formatApiResponse(200, res);
+};
+
+Posts.resolve = async (req, res) => {
+    const data = await mock(req);
+    await api.posts.resolve(req, data);
+    helpers.formatApiResponse(200, res);
+};
+
+Posts.unresolve = async (req, res) => {
+    const data = await mock(req);
+    await api.posts.unresolve(req, data);
     helpers.formatApiResponse(200, res);
 };
 
