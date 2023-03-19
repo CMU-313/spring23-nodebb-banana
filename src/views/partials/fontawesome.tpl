@@ -790,6 +790,8 @@
         <i class="fa fa-youtube"></i>
         <i class="fa fa-youtube-play"></i>
         <i class="fa fa-youtube-square"></i>
+        <i class="far fa-check-circle"></i>
+        <i class="fas fa-check-circle"></i>
 
     </div>
     <p class="help-block text-center">
