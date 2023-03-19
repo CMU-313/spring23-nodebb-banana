@@ -27,7 +27,7 @@ connection.connect = async function (options) {
                 path: redis_socket_or_host,
                 password: options.password,
                 db: options.database,
-                family: 6, 
+                family: 6,
             });
         } else {
             // Else, connect over tcp/ip
@@ -37,7 +37,7 @@ connection.connect = async function (options) {
                 port: options.port,
                 password: options.password,
                 db: options.database,
-                family: 6, 
+                family: 6,
             });
         }
 
