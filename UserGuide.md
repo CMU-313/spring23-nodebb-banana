@@ -33,3 +33,4 @@ The nodebb-plugin-poll-git in the repository is a plugin that provides a poll fu
    2) Automated test:
        The automated tests can be found within nodebb-plugin-poll-git/.eslintrc. What is being tested is in the comments which basically test general functionality of poll plugin and prevent some illegal operations.
        Some tests come from the ./eslintrc file of the official Nodebb poll plugin, and the remaining are added to prevent some possible unexpected operation. Combining with the user tests, these automated tests should be more than enough to use.
+
