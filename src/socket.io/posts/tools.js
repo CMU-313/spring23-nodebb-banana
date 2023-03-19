@@ -31,12 +31,14 @@ module.exports = function (SocketPosts) {
             bookmarked: posts.hasBookmarked(data.pid, socket.uid),
             postSharing: social.getActivePostSharing(),
             history: posts.diffs.exists(data.pid),
+            resolved: posts.hasResolved(data.pid, socket.uid),
             canViewInfo: privileges.global.can('view:users:info', socket.uid),
         });
 
         const postData = results.posts;
         postData.absolute_url = `${nconf.get('url')}/post/${data.pid}`;
         postData.bookmarked = results.bookmarked;
+        postData.resolved = results.resolved;
         postData.selfPost = socket.uid && socket.uid === postData.uid;
         postData.display_edit_tools = results.canEdit.flag;
         postData.display_delete_tools = results.canDelete.flag;
