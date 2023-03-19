@@ -4,14 +4,6 @@ An overview of our implemented features and how to run/user test them
 ## Mark as resolved:
 The ‘Mark As Resolved’ functionality allows users to mark specific posts or questions as resolved, which can serve as indications for others that no further assistance is required. An interactive “mark as resolved” button is displayed in the dropdown menu bar of each post’s interface. By clicking the button, users can change the status of the post either from unresolved to resolved or resolved to unresolved. The status change of the posts is supported by backend implementation. In particular, every time the button is clicked, the change is stored and preserved for the next view. 
 
-User testing for the feature can be performed through direct interaction with the NodeBB interface. 
-### Building
-To first build files after installation: 
-% ./nodebb build 
-Then start the NodeBB server:
-% ./nodebb start 
-After the server is started, visit the forum at http://localhost:4567/
-
 ### Tests
 To test the “Mark As Resolved” button, navigate to the page of a specific post. In the bottom-right corner, open the post menu bar, which is displayed as three dots on the interface. When clicking on the button, the status of the post should change as indicated by the change in the icon. Exit the current post page and reenter to see the status has been updated and preserved. 
 
