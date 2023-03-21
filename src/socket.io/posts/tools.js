@@ -29,6 +29,7 @@ module.exports = function (SocketPosts) {
             canFlag: privileges.posts.canFlag(data.pid, socket.uid),
             flagged: flags.exists('post', data.pid, socket.uid), // specifically, whether THIS calling user flagged
             bookmarked: posts.hasBookmarked(data.pid, socket.uid),
+            resolved: posts.hasResolved(data.pid, socket.uid),
             postSharing: social.getActivePostSharing(),
             history: posts.diffs.exists(data.pid),
             resolved: posts.hasResolved(data.pid, socket.uid),

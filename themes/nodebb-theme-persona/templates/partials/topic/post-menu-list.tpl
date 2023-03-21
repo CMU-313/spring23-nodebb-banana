@@ -76,7 +76,7 @@
     <li>
         <a component="post/bookmark" role="menuitem" tabindex="-1" href="#" data-bookmarked="{posts.bookmarked}">
             <span class="menu-icon">
-                <i component="post/bookmark/on" class="fa fa-fw fa-heart <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
+                <i component="post/bookmark/on" class="far fa-check-circle <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
                 <i component="post/bookmark/off" class="fa fa-fw fa-heart-o <!-- IF posts.bookmarked -->hidden<!-- ENDIF posts.bookmarked -->"></i>
             </span>
             <span class="bookmark-text">[[topic:bookmark]]</span>
@@ -87,7 +87,7 @@
     <li>
         <a component="post/resolve" role="menuitem" tabindex="-1" href="#" data-resolved="{posts.resolved}">
             <span class="menu-icon">
-                <i component="post/resolve/on" class="fas fa-check-circle <!-- IF !posts.resolved -->hidden<!-- ENDIF !posts.resolved -->"></i>
+                <i component="post/resolve/on" class="fa fa-fw fa-heart <!-- IF !posts.resolved -->hidden<!-- ENDIF !posts.resolved -->"></i>
                 <i component="post/resolve/off" class="far fa-check-circle <!-- IF posts.resolved -->hidden<!-- ENDIF posts.resolved -->"></i>
             </span>
             <span class="resolved">Mark As Resolved</span>
