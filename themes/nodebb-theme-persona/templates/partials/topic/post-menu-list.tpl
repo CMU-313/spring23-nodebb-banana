@@ -76,7 +76,7 @@
     <li>
         <a component="post/bookmark" role="menuitem" tabindex="-1" href="#" data-bookmarked="{posts.bookmarked}">
             <span class="menu-icon">
-                <i component="post/bookmark/on" class="far fa-check-circle <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
+                <i component="post/bookmark/on" class="fas fa-check-circle <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
                 <i component="post/bookmark/off" class="fa fa-fw fa-heart-o <!-- IF posts.bookmarked -->hidden<!-- ENDIF posts.bookmarked -->"></i>
             </span>
             <span class="bookmark-text">[[topic:bookmark]]</span>
