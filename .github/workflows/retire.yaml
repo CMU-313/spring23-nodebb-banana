@@ -1,0 +1,24 @@
+name: Retire.js
+
+on:
+  push:
+    branches:
+      - retire_js_tool 
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install retire
+
+      - name: Run Retire.js
+        run: npx retire -c
