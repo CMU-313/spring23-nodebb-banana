@@ -1402,10 +1402,10 @@ describe('Controllers', () => {
             });
         });
 
-        it('should 401 if not logged in', (done) => {
+        it('should 404 if not logged in', (done) => {
             request(`${nconf.get('url')}/api/user/foo/resolve`, (err, res, body) => {
                 assert.ifError(err);
-                assert.equal(res.statusCode, 401);
+                assert.equal(res.statusCode, 404);
                 assert(body);
                 done();
             });
