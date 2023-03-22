@@ -72,6 +72,8 @@ jobs:
               "redis:password": "",
               "redis:database": 0
             }
+        run: |
+          node app --setup="${SETUP}"
 
       - name: Deploy app
         uses: actions/checkout@v3
