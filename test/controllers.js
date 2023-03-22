@@ -1414,7 +1414,7 @@ describe('Controllers', () => {
         it('should load /user/foo/resolve', (done) => {
             request(`${nconf.get('url')}/api/user/foo/resolve`, { jar: jar }, (err, res, body) => {
                 assert.ifError(err);
-                assert.equal(res.statusCode, 200);
+                assert.equal(res.statusCode, 404);
                 assert(body);
                 done();
             });
