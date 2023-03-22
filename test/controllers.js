@@ -1323,6 +1323,15 @@ describe('Controllers', () => {
                     done();
                 });
             });
+            it('api should redirect to /user/[userslug]/resolve', (done) => {
+                request(`${nconf.get('url')}/api/me/resolve`, { jar: jar, json: true }, (err, res, body) => {
+                    assert.ifError(err);
+                    assert.equal(res.statusCode, 200);
+                    assert.equal(res.headers['x-redirect'], '/user/foo/resolve');
+                    assert.equal(body, '/user/foo/resolve');
+                    done();
+                });
+            });
             it('api should redirect to /user/[userslug]/edit/username', (done) => {
                 request(`${nconf.get('url')}/api/me/edit/username`, { jar: jar, json: true }, (err, res, body) => {
                     assert.ifError(err);
@@ -1334,6 +1343,14 @@ describe('Controllers', () => {
             });
             it('should redirect to login if user is not logged in', (done) => {
                 request(`${nconf.get('url')}/me/bookmarks`, { json: true }, (err, res, body) => {
+                    assert.ifError(err);
+                    assert.equal(res.statusCode, 200);
+                    assert(body.includes('Login to your account'), body.slice(0, 500));
+                    done();
+                });
+            });
+            it('should redirect to login if user is not logged in', (done) => {
+                request(`${nconf.get('url')}/me/resolve`, { json: true }, (err, res, body) => {
                     assert.ifError(err);
                     assert.equal(res.statusCode, 200);
                     assert(body.includes('Login to your account'), body.slice(0, 500));
@@ -1378,6 +1395,24 @@ describe('Controllers', () => {
 
         it('should load /user/foo/bookmarks', (done) => {
             request(`${nconf.get('url')}/api/user/foo/bookmarks`, { jar: jar }, (err, res, body) => {
+                assert.ifError(err);
+                assert.equal(res.statusCode, 200);
+                assert(body);
+                done();
+            });
+        });
+
+        it('should 401 if not logged in', (done) => {
+            request(`${nconf.get('url')}/api/user/foo/resolve`, (err, res, body) => {
+                assert.ifError(err);
+                assert.equal(res.statusCode, 401);
+                assert(body);
+                done();
+            });
+        });
+
+        it('should load /user/foo/resolve', (done) => {
+            request(`${nconf.get('url')}/api/user/foo/resolve`, { jar: jar }, (err, res, body) => {
                 assert.ifError(err);
                 assert.equal(res.statusCode, 200);
                 assert(body);
