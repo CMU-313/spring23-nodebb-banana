@@ -4,79 +4,80 @@ on:
     branches:
       - main
 jobs:
-  permissions:
-    checks: write  # for coverallsapp/github-action to create new checks
-    contents: read  # for actions/checkout to fetch code
-  strategy:
-    fail-fast: false
-    matrix:
-      os: [ubuntu-latest]
-      node: [16, 18]
-      database: [redis]
-      include:
-        # only run coverage once
-        - os: ubuntu-latest
-          node: 16
-          coverage: true
-        # test under development once
-        - database: mongo-dev
-          test_env: development
-  runs-on: ${{ matrix.os }}
-  env:
-    TEST_ENV: ${{ matrix.test_env || 'production' }}
+  build: 
+    permissions:
+      checks: write  # for coverallsapp/github-action to create new checks
+      contents: read  # for actions/checkout to fetch code
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        node: [16, 18]
+        database: [redis]
+        include:
+          # only run coverage once
+          - os: ubuntu-latest
+            node: 16
+            coverage: true
+          # test under development once
+          - database: mongo-dev
+            test_env: development
+    runs-on: ${{ matrix.os }}
+    env:
+      TEST_ENV: ${{ matrix.test_env || 'production' }}
 
-  services:
-    redis:
-      image: 'redis:2.8.23'
-      # Set health checks to wait until redis has started
-      options: >-
-        --health-cmd "redis-cli ping"
-        --health-interval 10s
-        --health-timeout 5s
-        --health-retries 5
-      ports:
-        # Maps port 6379 on service container to the host
-        - 6379:6379
+    services:
+      redis:
+        image: 'redis:2.8.23'
+        # Set health checks to wait until redis has started
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps port 6379 on service container to the host
+          - 6379:6379
 
-  steps:
-    - uses: actions/checkout@v3
+    steps:
+      - uses: actions/checkout@v3
 
-    - run: cp install/package.json package.json
+      - run: cp install/package.json package.json
 
-    - name: Install Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node }}
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
 
-    - name: NPM Install
-      uses: bahmutov/npm-install@v1
-      with:
-        useLockFile: false
+      - name: NPM Install
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
 
-    - name: Setup on Redis
-      if: startsWith(matrix.database, 'redis')
-      env:
-        SETUP: >-
-          {
-            "url": "http://127.0.0.1:4567/forum",
-            "secret": "abcdef",
-            "admin:username": "admin",
-            "admin:email": "test@example.org",
-            "admin:password": "hAN3Eg8W",
-            "admin:password:confirm": "hAN3Eg8W",
+      - name: Setup on Redis
+        if: startsWith(matrix.database, 'redis')
+        env:
+          SETUP: >-
+            {
+              "url": "http://127.0.0.1:4567/forum",
+              "secret": "abcdef",
+              "admin:username": "admin",
+              "admin:email": "test@example.org",
+              "admin:password": "hAN3Eg8W",
+              "admin:password:confirm": "hAN3Eg8W",
 
-            "database": "redis",
-            "redis:host": "127.0.0.1",
-            "redis:port": 6379,
-            "redis:password": "",
-            "redis:database": 0
-          }
+              "database": "redis",
+              "redis:host": "127.0.0.1",
+              "redis:port": 6379,
+              "redis:password": "",
+              "redis:database": 0
+            }
 
-    - name: Deploy app
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-        - uses: superfly/flyctl-actions/setup-flyctl@master
-        - run: flyctl deploy --remote-only
-          env:
-            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      - name: Deploy app
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - uses: superfly/flyctl-actions/setup-flyctl@master
+          - run: flyctl deploy --remote-only
+            env:
+              FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
