@@ -3,7 +3,7 @@ name: Retire.js
 on:
   push:
     branches:
-      - main # Change to your default branch if needed
+      - ire/retire_js_tool 
   pull_request:
     branches:
       - main # Change to your default branch if needed
