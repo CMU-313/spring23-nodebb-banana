@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - ire/retire_js_tool 
+      - main
+
   pull_request:
     branches:
       - main # Change to your default branch if needed
