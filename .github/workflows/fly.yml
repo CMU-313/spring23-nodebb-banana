@@ -12,7 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        node: [16, 18]
+        node: [18]
         database: [redis]
         include:
           # only run coverage once
@@ -55,7 +55,6 @@ jobs:
           useLockFile: false
 
       - name: Setup on Redis
-        if: startsWith(matrix.database, 'redis')
         env:
           SETUP: >-
             {
