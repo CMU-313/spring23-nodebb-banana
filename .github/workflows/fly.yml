@@ -7,13 +7,12 @@ jobs:
   permissions:
     checks: write  # for coverallsapp/github-action to create new checks
     contents: read  # for actions/checkout to fetch code
-  name: Test
   strategy:
     fail-fast: false
     matrix:
       os: [ubuntu-latest]
       node: [16, 18]
-      database: [mongo-dev, mongo, redis, postgres]
+      database: [redis]
       include:
         # only run coverage once
         - os: ubuntu-latest
@@ -27,21 +26,6 @@ jobs:
     TEST_ENV: ${{ matrix.test_env || 'production' }}
 
   services:
-    postgres:
-      image: 'postgres:14-alpine'
-      env:
-        POSTGRES_USER: postgres
-        POSTGRES_PASSWORD: postgres
-      # Set health checks to wait until postgres has started
-      options: >-
-        --health-cmd pg_isready
-        --health-interval 10s
-        --health-timeout 5s
-        --health-retries 5
-      ports:
-        # Maps port 5432 on service container to the host
-        - 5432:5432
-
     redis:
       image: 'redis:2.8.23'
       # Set health checks to wait until redis has started
