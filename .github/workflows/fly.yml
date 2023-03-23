@@ -11,18 +11,6 @@ jobs:
       contents: read  # for actions/checkout to fetch code
     strategy:
       fail-fast: false
-      matrix:
-        os: [ubuntu-latest]
-        node: [18]
-        database: [redis]
-        include:
-          # only run coverage once
-          - os: ubuntu-latest
-            node: 18
-            coverage: true
-    runs-on: ${{ matrix.os }}
-    env:
-      TEST_ENV: ${{ matrix.test_env || 'production' }}
 
     services:
       redis:
