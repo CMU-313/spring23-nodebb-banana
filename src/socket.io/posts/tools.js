@@ -32,7 +32,6 @@ module.exports = function (SocketPosts) {
             resolved: posts.hasResolved(data.pid, socket.uid),
             postSharing: social.getActivePostSharing(),
             history: posts.diffs.exists(data.pid),
-            resolved: posts.hasResolved(data.pid, socket.uid),
             canViewInfo: privileges.global.can('view:users:info', socket.uid),
         });
 
