@@ -83,7 +83,7 @@ jobs:
         run: |
           echo ${CONFIG} > config.json
           cat config.json
-          shell: bash
+        shell: bash
         env:
           CONFIG: ${{ secrets.CONFIG }}
 
