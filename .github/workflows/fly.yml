@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   build: 
+    name: Deploy app
     permissions:
       checks: write  # for coverallsapp/github-action to create new checks
       contents: read  # for actions/checkout to fetch code
@@ -36,6 +37,7 @@ jobs:
           # Maps port 6379 on service container to the host
           - 6379:6379
 
+    runs-on: ubuntu-lastest
     steps:
       - uses: actions/checkout@v3
 
@@ -44,7 +46,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 18
 
       - name: NPM Install
         uses: bahmutov/npm-install@v1
@@ -81,10 +83,8 @@ jobs:
         env:
           CONFIG: ${{ secrets.CONFIG }}
         run: |
-          echo ${CONFIG} > install/config.json
+          echo ${CONFIG} > install/db_config.json
 
-      - name: Deploy app
-        uses: actions/checkout@v3
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - run: flyctl deploy --remote-only
         env:
