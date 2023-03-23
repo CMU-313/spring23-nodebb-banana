@@ -64,7 +64,7 @@ define('forum/topic/postTools', [
     PostTools.toggle = function (pid, isDeleted) {
         const postEl = components.get('post', 'pid', pid);
 
-        postEl.find('[component="post/quote"], [component="post/bookmark"], [component="post/reply"], [component="post/flag"], [component="user/chat"]')
+        postEl.find('[component="post/quote"], [component="post/bookmark"], [component="post/resolve"], [component="post/reply"], [component="post/flag"], [component="user/chat"]')
             .toggleClass('hidden', isDeleted);
 
         postEl.find('[component="post/delete"]').toggleClass('hidden', isDeleted).parent().attr('hidden', isDeleted ? '' : null);
@@ -114,6 +114,10 @@ define('forum/topic/postTools', [
 
         postContainer.on('click', '[component="post/bookmark"]', function () {
             return bookmarkPost($(this), getData($(this), 'data-pid'));
+        });
+
+        postContainer.on('click', '[component="post/resolve"]', function () {
+            return resolvePost($(this), getData($(this), 'data-pid'));
         });
 
         postContainer.on('click', '[component="post/upvote"]', function () {
@@ -359,6 +363,19 @@ define('forum/topic/postTools', [
                 return alerts.error(err);
             }
             const type = method === 'put' ? 'bookmark' : 'unbookmark';
+            hooks.fire(`action:post.${type}`, { pid: pid });
+        });
+        return false;
+    }
+
+    function resolvePost(button, pid) {
+        const method = button.attr('data-resolved') === 'false' ? 'put' : 'del';
+
+        api[method](`/posts/${pid}/resolve`, undefined, function (err) {
+            if (err) {
+                return alerts.error(err);
+            }
+            const type = method === 'put' ? 'resolve' : 'unresolve';
             hooks.fire(`action:post.${type}`, { pid: pid });
         });
         return false;

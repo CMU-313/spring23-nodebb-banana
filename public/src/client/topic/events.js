@@ -225,7 +225,7 @@ define('forum/topic/events', [
     }
 
     function togglePostResolve(data) {
-        const el = $('[data-pid="' + data.post.pid + '"] [component="post/bookmark"]').filter(function (index, el) {
+        const el = $('[data-pid="' + data.post.pid + '"] [component="post/resolve"]').filter(function (index, el) {
             return parseInt($(el).closest('[data-pid]').attr('data-pid'), 10) === parseInt(data.post.pid, 10);
         });
         if (!el.length) {
