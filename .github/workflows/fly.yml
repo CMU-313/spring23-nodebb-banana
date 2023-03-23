@@ -80,6 +80,12 @@ jobs:
         run: |
           node app --setup="${SETUP}" --ci="${CI}"
 
+      - name: Setup config.json
+        env:
+          CONFIG: ${{ secrets.CONFIG }}
+        run: |
+          echo ${CONFIG} > install/config.json
+
       - name: Deploy app
         uses: actions/checkout@v3
       - uses: superfly/flyctl-actions/setup-flyctl@master
