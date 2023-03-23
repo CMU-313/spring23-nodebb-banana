@@ -13,12 +13,12 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        node: [16]
+        node: [18]
         database: [redis]
         include:
           # only run coverage once
           - os: ubuntu-latest
-            node: 16
+            node: 18
             coverage: true
     runs-on: ${{ matrix.os }}
 
@@ -43,7 +43,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.os }}
+          node-version: ${{ matrix.node }}
 
       - name: NPM Install
         uses: bahmutov/npm-install@v1
