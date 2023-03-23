@@ -90,7 +90,7 @@
                 <i component="post/resolve/on" class="fas fa-check-circle <!-- IF !posts.resolved -->hidden<!-- ENDIF !posts.resolved -->"></i>
                 <i component="post/resolve/off" class="far fa-check-circle <!-- IF posts.resolved -->hidden<!-- ENDIF posts.resolved -->"></i>
             </span>
-            <span class="resolved">Resolved</span>
+            <span class="resolved">Mark As Resolved</span>
         </a>
     </li>
     {{{ end }}}
