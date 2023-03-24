@@ -1,0 +1,1217 @@
+root@Julia:~# jshint /root/NodeBB/src/posts
+/root/NodeBB/src/posts/bookmarks.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/bookmarks.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 7, col 22, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/bookmarks.js: line 11, col 24, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/bookmarks.js: line 15, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/bookmarks.js: line 20, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 22, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 22, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 36, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 38, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 40, col 58, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 41, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 44, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 57, col 27, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/bookmarks.js: line 59, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 63, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/bookmarks.js: line 63, col 41, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 63, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 66, col 37, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/bookmarks.js: line 3, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/bookmarks.js: line 4, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/bookmarks.js: line 6, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/bookmarks.js: line 22, col 49, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/cache.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/cache.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/cache.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/cache.js: line 3, col 21, 'require' is not defined.
+/root/NodeBB/src/posts/cache.js: line 4, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/cache.js: line 6, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/cache.js: line 11, col 14, 'global' is not defined.
+
+/root/NodeBB/src/posts/category.js: line 2, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/category.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 11, col 25, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/category.js: line 12, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 16, col 27, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/category.js: line 17, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 18, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 19, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 20, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 21, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 21, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 25, col 29, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/category.js: line 33, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 33, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 34, col 24, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 37, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/category.js: line 38, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/category.js: line 38, col 55, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 39, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/category.js: line 5, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/category.js: line 7, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/category.js: line 8, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/category.js: line 10, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/category.js: line 33, col 31, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/create.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/create.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 15, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/create.js: line 17, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 17, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 18, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 19, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 20, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 21, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 31, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 32, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 50, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 52, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/create.js: line 54, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/create.js: line 74, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/create.js: line 79, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/create.js: line 80, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/create.js: line 3, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 5, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 6, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 7, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 9, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 10, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 11, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 12, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/create.js: line 14, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/create.js: line 57, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/create.js: line 78, col 15, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/data.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/data.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 14, col 28, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 18, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 18, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 19, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 20, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 25, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 29, col 25, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 30, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 34, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 38, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 39, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 43, col 27, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 44, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 48, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 49, col 42, 'computed property names' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 52, col 27, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/data.js: line 53, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 54, col 63, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/data.js: line 54, col 66, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/data.js: line 54, col 72, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/data.js: line 3, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/data.js: line 4, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/data.js: line 5, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/data.js: line 13, col 1, 'module' is not defined.
+
+/root/NodeBB/src/posts/delete.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/delete.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 14, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 18, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 22, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 23, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 24, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 30, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 36, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 37, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 40, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 47, col 19, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 49, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 50, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 55, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 55, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 56, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 57, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 59, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 65, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 70, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 89, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 94, col 46, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 94, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 97, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 98, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 99, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 100, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 101, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 102, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 103, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 104, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 108, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 110, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 110, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 111, col 14, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 111, col 14, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 111, col 33, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 112, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 115, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 115, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 116, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 117, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 118, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 119, col 14, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 119, col 14, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 119, col 33, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 120, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 122, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 123, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 126, col 40, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 131, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 131, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 132, col 18, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 132, col 18, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 132, col 40, 'for of' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 133, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 141, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 142, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 143, col 35, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 143, col 56, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 143, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 147, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 148, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 148, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 149, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 149, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 149, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 150, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 154, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 155, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 155, col 69, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 155, col 66, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 156, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 157, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 158, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 159, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 163, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 163, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 166, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 167, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 167, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 168, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 168, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 169, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 169, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 171, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 172, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 173, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 174, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 176, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 177, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 184, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 184, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 184, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 185, col 17, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 185, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 185, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 190, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 191, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 191, col 82, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 191, col 79, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 192, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 193, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 195, col 41, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 195, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 197, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 197, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 200, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 200, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 201, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 201, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 201, col 55, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 205, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 205, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 206, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 206, col 70, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 206, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 207, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 207, col 64, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 210, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 211, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 212, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 212, col 50, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 212, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 216, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 217, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 217, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 219, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 219, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 219, col 29, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 220, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 220, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 220, col 82, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 220, col 79, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 224, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 228, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/delete.js: line 229, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/delete.js: line 229, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 230, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/delete.js: line 3, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 5, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 6, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 7, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 9, col 23, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 10, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 11, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/delete.js: line 13, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/delete.js: line 32, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 65, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 74, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 89, col 9, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 138, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 151, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 167, col 46, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 181, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 203, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 217, col 34, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 225, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/delete.js: line 230, col 15, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/diffs.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/diffs.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 13, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 15, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 20, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 20, col 46, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 24, col 17, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 25, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 31, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 31, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 32, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 32, col 20, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 36, col 18, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 37, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 40, col 18, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 41, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 41, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 42, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 43, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 54, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 57, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 58, col 26, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 62, col 18, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 64, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 67, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 72, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 74, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 83, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 87, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 90, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 90, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 96, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 97, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 102, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 103, col 34, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 110, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 111, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 112, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 118, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 120, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 121, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 122, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 123, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 124, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 124, col 82, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 128, col 23, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 129, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 133, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/diffs.js: line 135, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 135, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 143, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 143, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 147, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 147, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 149, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 149, col 80, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/diffs.js: line 168, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/diffs.js: line 3, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 4, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 6, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 7, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 8, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 9, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 10, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 12, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 56, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 90, col 49, 'Promise' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 101, col 20, 'Promise' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 127, col 16, 'Promise' is not defined.
+/root/NodeBB/src/posts/diffs.js: line 135, col 37, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/edit.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/edit.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 15, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 18, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 22, col 18, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/edit.js: line 23, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 27, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 32, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 38, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 39, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 45, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 52, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 52, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 58, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 69, col 17, 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 77, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 77, col 34, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 77, col 37, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/edit.js: line 77, col 47, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 77, col 50, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/edit.js: line 88, col 18, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 106, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/edit.js: line 107, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 107, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 108, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 110, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 122, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 131, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 134, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 135, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 138, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 145, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 150, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/edit.js: line 154, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 162, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 180, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/edit.js: line 184, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 188, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 195, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 214, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/edit.js: line 3, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 4, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 6, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 7, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 8, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 9, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 10, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 11, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 12, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 13, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 14, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 15, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 19, col 9, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 94, col 9, 'require' is not defined.
+/root/NodeBB/src/posts/edit.js: line 17, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/edit.js: line 52, col 39, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/index.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/index.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 31, col 16, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 33, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 33, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 33, col 64, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 37, col 24, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 44, col 24, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 48, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 50, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 57, col 33, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 58, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 60, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 64, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 65, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 65, col 50, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 65, col 77, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 66, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 67, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 74, col 24, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/index.js: line 78, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 80, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 81, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 81, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 81, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 81, col 71, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 82, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 84, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 85, col 5, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 91, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 91, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 92, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/index.js: line 93, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/index.js: line 3, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 5, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 6, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 7, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 8, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 9, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 13, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 14, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 15, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 16, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 17, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 18, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 19, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 20, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 21, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 22, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 23, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 24, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 25, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 26, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 27, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 28, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 29, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 105, col 1, 'require' is not defined.
+/root/NodeBB/src/posts/index.js: line 11, col 15, 'module' is not defined.
+/root/NodeBB/src/posts/index.js: line 49, col 19, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/parse.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/parse.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 14, col 1, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 22, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 22, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/parse.js: line 35, col 9, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 35, col 12, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/parse.js: line 50, col 23, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 55, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 56, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 57, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 63, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 71, col 28, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 81, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 82, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 83, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 94, col 40, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 119, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 119, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 121, col 48, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 132, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 135, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 135, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 143, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 143, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 148, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 148, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 153, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/parse.js: line 153, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/parse.js: line 162, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/parse.js: line 3, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 4, col 13, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 5, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 6, col 18, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 7, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 9, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 10, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 11, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 12, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 55, col 23, 'require' is not defined.
+/root/NodeBB/src/posts/parse.js: line 39, col 1, 'module' is not defined.
+
+/root/NodeBB/src/posts/queue.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/queue.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 15, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 16, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 17, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 18, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 21, col 28, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 21, col 42, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 21, col 56, 'default parameters' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 21, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 22, col 37, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 22, col 40, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/queue.js: line 23, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 25, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 26, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 26, col 40, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 26, col 37, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 28, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 34, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 34, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 35, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 36, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 46, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 49, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 54, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 55, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 57, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 57, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 59, col 22, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 66, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 77, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 81, col 25, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 82, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 82, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 88, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 92, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 100, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 101, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 102, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 118, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 119, col 37, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 120, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 124, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 125, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 126, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 129, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 130, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 137, col 24, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 138, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 139, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 140, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 140, col 20, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 143, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 153, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 157, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 158, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 159, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 161, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 163, col 18, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 167, col 19, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 178, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 179, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 180, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 180, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 186, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 188, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 191, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 194, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 196, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 196, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 205, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 214, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 215, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 216, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 229, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 229, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 238, col 29, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 239, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 243, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 249, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 252, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 256, col 29, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 257, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 261, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 264, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 267, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 275, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 279, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 280, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 280, col 41, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 289, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 290, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 295, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 296, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 297, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 306, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 307, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 311, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 324, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 328, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 329, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 329, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 336, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 341, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 347, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 348, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 355, col 36, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 356, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/queue.js: line 358, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 362, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 362, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/queue.js: line 362, col 92, 'Trailing comma in arguments lists' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/queue.js: line 3, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 4, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 5, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 7, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 9, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 10, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 11, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 12, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 13, col 23, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 14, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 15, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 16, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 17, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 18, col 23, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 196, col 25, 'require' is not defined.
+/root/NodeBB/src/posts/queue.js: line 20, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/queue.js: line 49, col 19, 'Promise' is not defined.
+/root/NodeBB/src/posts/queue.js: line 82, col 74, 'Promise' is not defined.
+/root/NodeBB/src/posts/queue.js: line 130, col 31, 'Promise' is not defined.
+/root/NodeBB/src/posts/queue.js: line 180, col 53, 'Promise' is not defined.
+/root/NodeBB/src/posts/queue.js: line 229, col 33, 'Promise' is not defined.
+/root/NodeBB/src/posts/queue.js: line 329, col 50, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/recent.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/recent.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 10, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 16, col 28, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/recent.js: line 17, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 22, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 23, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 28, col 33, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/recent.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 30, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/recent.js: line 31, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/recent.js: line 31, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/recent.js: line 3, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/recent.js: line 5, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/recent.js: line 6, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/recent.js: line 9, col 1, 'module' is not defined.
+
+/root/NodeBB/src/posts/resolve.js: line 2, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/resolve.js: line 3, col 18, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/root/NodeBB/src/posts/resolve.js: line 3, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/root/NodeBB/src/posts/resolve.js: line 5, col 35, Bad constructor.
+/root/NodeBB/src/posts/resolve.js: line 8, col 115, Expected an assignment or function call and instead saw an expression.
+/root/NodeBB/src/posts/resolve.js: line 12, col 24, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/root/NodeBB/src/posts/resolve.js: line 12, col 32, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/root/NodeBB/src/posts/resolve.js: line 19, col 26, If a strict mode function is executed using function invocation, its 'this' value will be undefined.
+/root/NodeBB/src/posts/resolve.js: line 15, col 36, 'require' is not defined.
+/root/NodeBB/src/posts/resolve.js: line 16, col 35, 'require' is not defined.
+/root/NodeBB/src/posts/resolve.js: line 17, col 1, 'module' is not defined.
+
+/root/NodeBB/src/posts/summary.js: line 2, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/summary.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 14, col 34, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/summary.js: line 23, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 25, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 29, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 30, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 30, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 32, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 32, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 37, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 38, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 39, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 41, col 28, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 57, col 35, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 60, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 64, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/summary.js: line 65, col 44, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/summary.js: line 65, col 55, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 78, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/summary.js: line 79, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 83, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 83, col 50, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/summary.js: line 84, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 92, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 93, col 14, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/summary.js: line 4, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 5, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 7, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 9, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 10, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 11, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/summary.js: line 13, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/summary.js: line 32, col 52, 'Promise' is not defined.
+/root/NodeBB/src/posts/summary.js: line 65, col 22, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/tools.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/tools.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/tools.js: line 8, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/tools.js: line 12, col 27, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/tools.js: line 16, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/tools.js: line 17, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/tools.js: line 17, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/tools.js: line 34, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/tools.js: line 3, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/tools.js: line 36, col 13, 'require' is not defined.
+/root/NodeBB/src/posts/tools.js: line 5, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/tools.js: line 17, col 45, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/topics.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/topics.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 8, col 29, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/topics.js: line 9, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 10, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 14, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/topics.js: line 15, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 17, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 18, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 18, col 71, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/topics.js: line 19, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 19, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/topics.js: line 23, col 28, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/topics.js: line 24, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 28, col 30, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/topics.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 33, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/topics.js: line 34, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 35, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 35, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/topics.js: line 36, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 36, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 41, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 41, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/topics.js: line 42, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 43, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/topics.js: line 46, col 24, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/topics.js: line 3, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/topics.js: line 4, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/topics.js: line 5, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/topics.js: line 7, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/topics.js: line 36, col 44, 'Promise' is not defined.
+
+/root/NodeBB/src/posts/uploads.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/uploads.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 14, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 15, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 16, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 17, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 18, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 23, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 23, col 26, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 24, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 25, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 27, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 27, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 28, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 28, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 28, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 28, col 83, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 28, col 98, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 29, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 33, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 35, col 34, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 35, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 36, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 38, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 39, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 40, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 46, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 49, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 49, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 56, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 57, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 65, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 66, col 13, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 67, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 67, col 49, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 68, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 68, col 90, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 71, col 26, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 75, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 75, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 76, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 76, col 51, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 83, col 26, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 84, col 45, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 87, col 35, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 88, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 89, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 89, col 61, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 89, col 58, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 91, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 92, col 13, 'spread operator' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 92, col 16, 'object spread property' is only available in ES9 (use 'esversion: 9').
+/root/NodeBB/src/posts/uploads.js: line 97, col 32, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 97, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 98, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 99, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 102, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 103, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 105, col 45, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 105, col 60, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 105, col 93, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 105, col 116, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 111, col 34, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 111, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 112, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 113, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 114, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 119, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 121, col 49, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 121, col 63, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 122, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 122, col 13, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 128, col 33, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 135, col 30, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 136, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 136, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 140, col 30, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 146, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 146, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 146, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 147, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 150, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 160, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 161, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 161, col 39, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 162, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 162, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 162, col 48, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 164, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 170, col 32, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 177, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 177, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 177, col 51, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 178, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 179, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 186, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 187, col 31, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 187, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 190, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 190, col 85, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 190, col 82, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 190, col 125, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 191, col 57, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 198, col 35, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 198, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 199, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 203, col 36, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 203, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 207, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 214, col 30, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 214, col 46, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 215, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 216, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 219, col 41, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/uploads.js: line 219, col 56, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 221, col 17, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/uploads.js: line 222, col 36, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 227, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/uploads.js: line 3, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 4, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 5, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 6, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 7, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 9, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 10, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 11, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 13, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 14, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 15, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 16, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 17, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 18, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 20, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 28, col 57, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 49, col 61, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 77, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 105, col 23, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 121, col 25, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 147, col 22, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 163, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 183, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 186, col 40, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 191, col 19, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 211, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 219, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/uploads.js: line 40, col 21, 'process' is not defined.
+
+/root/NodeBB/src/posts/user.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/user.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 11, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 12, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 13, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 16, col 33, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 17, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 17, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 22, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 22, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 23, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 25, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 35, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 35, col 55, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 35, col 70, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 36, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 36, col 13, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 43, col 67, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 54, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 68, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 75, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 79, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 83, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 84, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 84, col 61, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 85, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 86, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 87, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 102, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 103, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 109, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 117, col 21, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 119, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 122, col 40, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 124, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 125, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 125, col 42, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 129, col 25, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 131, col 30, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 133, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 137, col 25, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 138, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 142, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 145, col 38, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 146, col 31, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 148, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 150, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 151, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 152, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 153, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 154, col 34, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 157, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 158, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 159, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 161, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 162, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 164, col 31, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 171, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 171, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 191, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 192, col 47, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 192, col 64, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 193, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 193, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 201, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 202, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 202, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 203, col 42, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 203, col 59, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 204, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 204, col 52, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 205, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 206, col 45, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 206, col 62, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 207, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 212, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 213, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 213, col 44, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 214, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 217, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 219, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 219, col 45, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 224, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 225, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 226, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 227, col 32, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 228, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 229, col 30, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 231, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 232, col 27, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 238, col 50, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 238, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 245, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 245, col 47, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 252, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 253, col 58, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/user.js: line 253, col 68, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/user.js: line 254, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 255, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/user.js: line 3, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 4, col 19, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 5, col 11, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 7, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 8, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 9, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 10, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 11, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 12, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 13, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/user.js: line 15, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/user.js: line 17, col 63, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 35, col 30, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 36, col 76, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 170, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 179, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 194, col 19, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 237, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/user.js: line 22, col 38, 'Set' is not defined.
+
+/root/NodeBB/src/posts/votes.js: line 1, col 1, Use the function form of "use strict".
+/root/NodeBB/src/posts/votes.js: line 3, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 4, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 5, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 6, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 7, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 8, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 9, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 10, col 1, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 13, col 5, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 15, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 19, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 36, col 22, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 44, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 61, col 20, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 68, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 75, col 22, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 79, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 79, col 51, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 79, col 72, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 83, col 36, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 85, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 85, col 36, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 88, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 88, col 44, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 88, col 41, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 89, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 89, col 46, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 89, col 43, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 90, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 97, col 34, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 98, col 56, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 98, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 112, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 119, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 120, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 125, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 126, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 142, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 144, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 145, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 145, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 149, col 17, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 153, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 154, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 154, col 86, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 156, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 156, col 40, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 158, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 160, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 160, col 47, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 162, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 163, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 163, col 53, 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 165, col 33, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 170, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 175, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 178, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 180, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 184, col 38, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 186, col 35, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 189, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 190, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 207, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 208, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 209, col 9, 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 218, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 226, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 227, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 229, col 32, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 231, col 29, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 233, col 28, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 235, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 235, col 9, 'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 236, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 237, col 25, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 245, col 33, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 249, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 251, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 252, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 252, col 58, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 253, col 13, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 267, col 5, 'async functions' is only available in ES8 (use 'esversion: 8').
+/root/NodeBB/src/posts/votes.js: line 268, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 272, col 39, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 274, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 279, col 42, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 281, col 9, 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+/root/NodeBB/src/posts/votes.js: line 289, col 43, 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+/root/NodeBB/src/posts/votes.js: line 3, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 4, col 12, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 5, col 15, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 6, col 14, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 7, col 16, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 8, col 17, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 9, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 10, col 20, 'require' is not defined.
+/root/NodeBB/src/posts/votes.js: line 12, col 1, 'module' is not defined.
+/root/NodeBB/src/posts/votes.js: line 145, col 63, 'Promise' is not defined.
+/root/NodeBB/src/posts/votes.js: line 235, col 44, 'Promise' is not defined.
+/root/NodeBB/src/posts/votes.js: line 256, col 15, 'Promise' is not defined.
+/root/NodeBB/src/posts/votes.js: line 291, col 15, 'Promise' is not defined.
+
+1196 errors
