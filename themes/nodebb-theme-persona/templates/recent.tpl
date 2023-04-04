@@ -58,6 +58,56 @@
 </ul> 
 </div>
 
+    <div class="btn-group pull-right bottom-sheet">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+
+
+
+    <span class="visible-sm-inline visible-md-inline visible-lg-inline">All Tags</span><span class="visible-xs-inline"><i class="fa fa-fw {selectedFilter.icon}"></i></span> <span class="caret"></span>
+
+
+        </button>
+        <ul component="category/list" class="dropdown-menu category-dropdown-menu" role="menu">
+        <div class="tags">
+            <!-- IF displayTagSearch -->
+            <!-- IF tags.length -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="[[global:search]]" id="tag-search">
+                        <span class="input-group-addon search-button"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- ENDIF tags.length -->
+            <!-- ENDIF displayTagSearch -->
+
+            <!-- IF !tags.length -->
+            <div class="alert alert-warning">[[tags:no_tags]]</div>
+            <!-- ENDIF !tags.length -->
+
+            <div class="category row">
+                <div class="col-md-12 clearfix tag-list" data-nextstart="{nextStart}">
+                    {{{each tags}}}
+                    <h3 class="pull-left tag-container">
+                        <a href="{config.relative_path}/tags/{tags.valueEncoded}" data-value="{tags.valueEscaped}"><span class="tag-item tag-class-{tags.class}" data-tag="{tags.valueEscaped}">{tags.valueEscaped}</span><span class="tag-topic-count human-readable-number" title="{tags.score}">{tags.score}</span></a>
+                    </h3>
+                    {{{end}}}
+                </div>
+            </div>
+        </div>
+
+
+
+    <li role="presentation" class="category" data-all="all">
+         <a role="menu-item" href="{config.relative_path}/tags/{tags.valueEncoded}" data-value="{tags.valueEscaped}"><span class="tag-item tag-class-{tags.class}" data-tag="{tags.valueEscaped}">{tags.valueEscaped}</span><span class="tag-topic-count human-readable-number" title="{tags.score}">{tags.score}</span></a>
+    </li>
+    </ul> 
+
+
+
+    </div>
+
         <div class="btn-group pull-right">
         <!-- IMPORT partials/category/tools.tpl -->
         </div>
