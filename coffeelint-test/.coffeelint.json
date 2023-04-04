@@ -1,0 +1,12 @@
+{
+    "no_backticks": {
+      "level": "error"
+    },
+    "max_line_length": {
+      "level": "ignore"
+    },
+    "indentation": {
+      "value": 2
+    }
+  }
+  
