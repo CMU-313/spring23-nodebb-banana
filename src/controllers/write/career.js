@@ -34,8 +34,7 @@ Career.register = async (req, res) => {
         try {
             const fetchResponse = await fetch(endpoint, config);
             const data = await fetchResponse.json();
-            userCareerData.prediction = data.good_employee
-            console.log(`is good employee? ${data.good_employee}`)
+            userCareerData.prediction = parseInt(data.good_employee)
             await user.setCareerData(req.uid, userCareerData);
             db.sortedSetAdd('users:career', req.uid, req.uid);
             res.json({});
