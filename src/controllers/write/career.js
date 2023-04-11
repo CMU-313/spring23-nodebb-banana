@@ -22,7 +22,7 @@ Career.register = async (req, res) => {
         
         // Currently locally running endpoint
         // Replace with deployed microservice endpoint
-        const endpoint = `http://0.0.0.0:8080/predict_student/`;
+        const endpoint = `https://career-microservice-banana.fly.dev/`;
         const config = {
             method: 'POST',
             headers: {
