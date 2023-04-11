@@ -21,7 +21,7 @@ Career.register = async (req, res) => {
         };
         // Currently locally running endpoint
         // Replace with deployed microservice endpoint
-        const endpoint = `https://career-microservice-banana.fly.dev/`;
+        const endpoint = `https://banana-v5.fly.dev/`;
         const config = {
             method: 'POST',
             headers: {
