@@ -19,7 +19,6 @@ Career.register = async (req, res) => {
             num_programming_languages: userData.num_programming_languages,
             num_past_internships: userData.num_past_internships,
         };
-        
         // Currently locally running endpoint
         // Replace with deployed microservice endpoint
         const endpoint = `https://career-microservice-banana.fly.dev/`;
@@ -29,20 +28,18 @@ Career.register = async (req, res) => {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(userCareerData)
+            body: JSON.stringify(userCareerData),
         };
         try {
             const fetchResponse = await fetch(endpoint, config);
             const data = await fetchResponse.json();
-            userCareerData.prediction = parseInt(data.good_employee)
+            userCareerData.prediction = parseInt(data.good_employee, 10);
             await user.setCareerData(req.uid, userCareerData);
             db.sortedSetAdd('users:career', req.uid, req.uid);
             res.json({});
-
         } catch (e) {
-            console.log(e)
+            console.log(e);
         } 
-
     } catch (err) {
         console.log(err);
         helpers.noScriptErrors(req, res, err.message, 400);

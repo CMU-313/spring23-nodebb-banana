@@ -8,7 +8,6 @@ const routeHelpers = require('../helpers');
 const { setupApiRoute } = routeHelpers;
 
 module.exports = function () {
-    console.log("Api careers router")
     const middlewares = [middleware.ensureLoggedIn];
     setupApiRoute(router, 'post', '/register', [...middlewares], controllers.write.career.register);
     return router;

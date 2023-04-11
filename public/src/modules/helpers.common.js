@@ -341,7 +341,7 @@ module.exports = function (utils, Benchpress, relative_path) {
 
     function getPredictionColor(prediction) {
         // Convert to int, then compare
-        if (parseInt(prediction) === 1) { return `"background-color: rgb(0, 255, 0);"`; }
+        if (parseInt(prediction, 10) === 1) { return `"background-color: rgb(0, 255, 0);"`; }
         return `"background-color: rgb(255, 0, 0);"`;
     }
 
