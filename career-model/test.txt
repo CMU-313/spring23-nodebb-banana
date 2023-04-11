@@ -1,4 +1,4 @@
-POST http://0.0.0.0:8080/predict_student/ 
+POST https://banana-v5.fly.dev/
 Content-Type: application/json
 
 {
@@ -6,7 +6,7 @@ Content-Type: application/json
 "major": "Computer Science",
 "age": "20",
 "gender": "M",
-"gpa": "4.0",
+"gpa": "1.0",
 "extra_curricular": "Men's Basketball",
 "num_programming_languages": "1",
 "num_past_internships": "2"
