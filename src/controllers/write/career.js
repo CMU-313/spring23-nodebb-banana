@@ -39,7 +39,7 @@ Career.register = async (req, res) => {
             res.json({});
         } catch (e) {
             console.log(e);
-        } 
+        }
     } catch (err) {
         console.log(err);
         helpers.noScriptErrors(req, res, err.message, 400);
