@@ -1,0 +1,9 @@
+version: '3.9'
+services: 
+  my-fastapi-service: 
+    container_name: career-model-v1
+    image: myimage:latest
+    cpus: 1
+    mem_limit: 1024m
+    ports: 
+        - "8080:80"
